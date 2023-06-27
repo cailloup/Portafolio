@@ -1,4 +1,3 @@
-import { Title } from '../../common/navBar/Title'
 import { skills } from '../../data/data'
 import styles from './Skills.module.css'
 export const Skills: React.FC<{}> = () => {
