@@ -1,17 +1,15 @@
-FROM node:18-alpine
-
+# Build stage
+FROM node:18 as build-stage
 WORKDIR /app
-
 COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
 
-COPY ./src ./src
-COPY ./public ./public
-COPY tsconfig.json ./
 
-RUN npm install --only=prod \
-    && npm install -g serve \
-    && npm run build 
-
-EXPOSE 3000
-
-CMD ["npm", "run", "start"]
+# Production stage
+FROM node:18-alpine as production-stage
+WORKDIR /app
+COPY --from=build-stage /app/build ./build
+RUN npm install -g serve
+CMD ["serve", "-s", "build"]
