@@ -8,7 +8,7 @@ COPY ./src ./src
 COPY ./public ./public
 COPY tsconfig.json ./
 
-RUN npm install \
+RUN npm install --only=prod \
     && npm install -g serve \
     && npm run build 
 
