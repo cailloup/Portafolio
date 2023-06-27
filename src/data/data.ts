@@ -78,7 +78,8 @@ export const proyects = [
     description: 'Tareas rea',
     img: 'https://static.fundacion-affinity.org/cdn/farfuture/wfzHUAPksUOWePuvajegv_W_DwdxDophyz5qyiV1EiY/mtime:1528830294/sites/default/files/la-adopcion-una-nueva-oportunidad-a-las-mascotas-abandonadas.jpg',
     link: 'https://github.com/cailloup/arch-api',
-    technologys: ['java', 'spring', 'vueJS']
+    repo: 'https://github.com/pablogonc/SOTP',
+    technologys: ['java', 'spring', 'vueJS', 'RESTful', 'maven', 'MVC', 'Design Patterns']
   },
   {
     where: 'utn',
@@ -86,6 +87,7 @@ export const proyects = [
     description: 'Tareas rea',
     img: 'https://static.fundacion-affinity.org/cdn/farfuture/wfzHUAPksUOWePuvajegv_W_DwdxDophyz5qyiV1EiY/mtime:1528830294/sites/default/files/la-adopcion-una-nueva-oportunidad-a-las-mascotas-abandonadas.jpg',
     link: 'https://github.com/pablogonc/SOTP',
+    repo: 'https://github.com/pablogonc/SOTP',
     technologys: ['C']
   },
   {
@@ -93,8 +95,9 @@ export const proyects = [
     name: 'Portafolio',
     description: 'Tareas rea',
     img: 'portfolio.png',
-    link: 'https://github.com/pablogonc/SOTP',
-    technologys: ['typescript', 'react', 'docker']
+    link: 'https://portafolio-zaa66xnsca-uc.a.run.app/',
+    repo: 'https://github.com/pablogonc/Portafolio',
+    technologys: ['typescript', 'react', 'docker', 'HTML', 'CSS', 'cloudrun']
   }
 ]
 
