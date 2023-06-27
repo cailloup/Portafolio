@@ -79,7 +79,7 @@ export const proyects = [
     img: 'https://static.fundacion-affinity.org/cdn/farfuture/wfzHUAPksUOWePuvajegv_W_DwdxDophyz5qyiV1EiY/mtime:1528830294/sites/default/files/la-adopcion-una-nueva-oportunidad-a-las-mascotas-abandonadas.jpg',
     link: 'https://github.com/cailloup/arch-api',
     repo: 'https://github.com/pablogonc/SOTP',
-    technologys: ['java', 'spring', 'vueJS', 'RESTful', 'maven', 'MVC', 'Design Patterns']
+    technologys: ['java', 'spring', 'vueJS', 'JavaScript', 'RESTful', 'maven', 'MVC', 'Design Patterns']
   },
   {
     where: 'utn',
