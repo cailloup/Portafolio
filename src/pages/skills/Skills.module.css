@@ -1,5 +1,5 @@
 .skillContainer{
-    padding: 0px 50px;
+    padding: 50px 0px;
     display: grid;
     grid-template-columns: repeat(auto-fit,200px);
     width: 100%;
