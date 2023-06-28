@@ -10,11 +10,12 @@
     width: 300px;
     aspect-ratio: 1/1;
     clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    align-self: center;
 }
 
 .card{
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: 5px;    
 }
@@ -86,4 +87,9 @@
 
 .otro{
     width: 100%;
+}
+
+.contactInfo{
+    width: 100%;
+    
 }

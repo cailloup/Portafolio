@@ -19,6 +19,15 @@ export const Me: React.FC<{}> = () => {
           <div className={styles.line} />
         </div>
 
+        <p style={{ color: '#A778DD' }}><strong>Nacimiento</strong></p>
+        <p>{yo.birthday}</p>
+
+        <p style={{ color: '#A778DD' }}><strong>Ubicación</strong></p>
+        <p>{yo.location}</p>
+
+        <p style={{ color: '#A778DD' }}><strong>Mail</strong></p>
+        <p>{yo.mail}</p>
+
         <div className={styles.buttonContainer}>
           <button className={styles.button}>Descargar CV</button>
         </div>
