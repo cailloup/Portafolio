@@ -23,7 +23,7 @@ export const Expirience: React.FC<{}> = () => {
               ))}
             </div>
             <p style={{ whiteSpace: 'break-spaces' }}>{description}</p>
-            <a href={repo} target='_blank' rel='noreferrer'><button className={styles.button}> <img src={github} alt='' /> ver repositorio</button></a>
+            <a href={repo} target='_blank' rel='noreferrer'><button className={styles.button}>ver repositorio</button></a>
           </div>
 
         </div>

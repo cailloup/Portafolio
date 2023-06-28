@@ -113,7 +113,6 @@ export const Me = {
             'Busco oportunidades que me permitan adquirir experiencia y crecer profesionalmente, centrándome principalmente en el desarrollo backend.',
   location: 'Monte Castro, CABA',
   mail: 'goncalves.pab@gmail.com',
-  tel: '1164296693',
   study: [
     {
       name: 'Escuela Tecnica N35 Ing Eduardo Laztzina',
