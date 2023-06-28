@@ -57,6 +57,22 @@ export const skills = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png'
   },
   {
+    name: 'VSCode',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png'
+  },
+  {
+    name: 'Eclipse',
+    logo: 'https://ahorasomos.izertis.com/globetesting/wp-content/uploads/2019/01/logoeclipse2.png'
+  },
+  {
+    name: 'Intellij',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/1024px-IntelliJ_IDEA_Icon.svg.png'
+  },
+  {
+    name: 'Postman',
+    logo: 'https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.png'
+  },
+  {
     name: 'Programación orientada a objetos',
     logo: ''
   },
