@@ -7,7 +7,7 @@ export const Me: React.FC<{}> = () => {
   return (
     <main className={styles.main}>
       <div className={styles.card}>
-        <img src='/picture3RF.png' alt='foto de perfil' className={styles.img} />
+        <img src='/picture3RF3.png' alt='foto de perfil' className={styles.img} />
         <h1>Pablo Goncalves</h1>
         <h2 style={{ color: '#FF8F66', textDecoration: 'underline' }}>Backend Developer</h2>
         <p>{yo.objetive}</p>

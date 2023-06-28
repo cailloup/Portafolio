@@ -6,7 +6,7 @@ export const Expirience: React.FC<{}> = () => {
   return (
 
     <main className={styles.gridContainer}>
-      {proyects.map(({ description, link, name, repo, img, technologys }) =>
+      {proyects.map(({ description, link, name, repo, img, tags }) =>
         <div key={name} className={styles.box}>
           <h3 className={styles.cardTitle}>{name}</h3>
           <a href={link} target='_blank' className={styles.backgroundContainer} rel='noreferrer'>
@@ -18,11 +18,11 @@ export const Expirience: React.FC<{}> = () => {
 
           <div className={styles.boxContent}>
             <div className={styles.tagContainer}>
-              {technologys.map(tecnology => (
-                <span key={tecnology} className={styles.tag}> {tecnology} </span>
+              {tags.map(tag => (
+                <span key={tag} className={styles.tag}> {tag} </span>
               ))}
             </div>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem exercitationem obcaecati, eveniet cumque vel harum corporis quidem nobis dignissimos optio suscipit iure id aspernatur labore numquam earum, eligendi, nihil illo.</p>
+            <p style={{ whiteSpace: 'break-spaces' }}>{description}</p>
             <a href={repo} target='_blank' rel='noreferrer'><button className={styles.button}> <img src={github} alt='' /> ver repositorio</button></a>
           </div>
 

@@ -75,29 +75,35 @@ export const proyects = [
   {
     where: 'utn',
     name: 'patitas',
-    description: 'Tareas rea',
+    description: 'Sistema de información diseñado para la materia de Diseño de Sistemas, el cual ofrece las siguientes funcionalidades:\n' +
+    '• Dar en adopción una mascota.\n' +
+    '• Adoptar una mascota.\n' +
+    '• Registrar mi mascota.\n' +
+    '• Encontrar una mascota perdida.\n' +
+    '• Encontrar a mi mascota que estaba perdida.\n' +
+    '• Encontrar un hogar de tránsito.',
     img: 'https://static.fundacion-affinity.org/cdn/farfuture/wfzHUAPksUOWePuvajegv_W_DwdxDophyz5qyiV1EiY/mtime:1528830294/sites/default/files/la-adopcion-una-nueva-oportunidad-a-las-mascotas-abandonadas.jpg',
     link: 'https://github.com/cailloup/arch-api',
     repo: 'https://github.com/pablogonc/SOTP',
-    technologys: ['java', 'spring', 'vueJS', 'JavaScript', 'RESTful', 'maven', 'MVC', 'Design Patterns']
+    tags: ['java', 'spring', 'vueJS', 'JavaScript', 'RESTful', 'maven', 'MVC', 'Design Patterns']
   },
   {
     where: 'utn',
-    name: 'SO C',
-    description: 'Tareas rea',
-    img: 'https://static.fundacion-affinity.org/cdn/farfuture/wfzHUAPksUOWePuvajegv_W_DwdxDophyz5qyiV1EiY/mtime:1528830294/sites/default/files/la-adopcion-una-nueva-oportunidad-a-las-mascotas-abandonadas.jpg',
+    name: 'TP Sistemas Operativos',
+    description: 'Trabajo práctico de la materia Sistemas Operativos. Consiste en el desarrollo de una solución que permite simular un sistema distribuido en el cual se planifican procesos, se resuelven peticiones al sistema y se administra de manera adecuada la memoria bajo un esquema de memoria.',
+    img: 'TPSO.png',
     link: 'https://github.com/pablogonc/SOTP',
     repo: 'https://github.com/pablogonc/SOTP',
-    technologys: ['C', 'Linux']
+    tags: ['C', 'Linux']
   },
   {
     where: 'utn',
     name: 'Portafolio',
-    description: 'Tareas rea',
+    description: 'Portafolio personal',
     img: 'portfolio.png',
     link: 'https://portafolio-zaa66xnsca-uc.a.run.app/',
     repo: 'https://github.com/pablogonc/Portafolio',
-    technologys: ['typescript', 'react', 'docker', 'HTML', 'CSS', 'cloudrun']
+    tags: ['typescript', 'react', 'docker', 'node', 'HTML', 'CSS', 'cloudrun']
   }
 ]
 

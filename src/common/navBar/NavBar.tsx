@@ -3,7 +3,7 @@ import styles from './nav.module.css'
 
 const navPages = ['Sobre mi', 'Experiencia', 'Aptitudes']
 
-export const NavBar: React.FC = () => {
+export const NavBar: React.FC<{}> = () => {
   return (
     <nav className={styles.nav}>
       <div>
