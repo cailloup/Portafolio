@@ -14,8 +14,8 @@ const App: React.FC<{}> = () => {
     <>
       <NavBar />
 
-      <section id='Sobre mi'>
-        <Title>Sobre mi</Title>
+      <section id='Sobre mí'>
+        <Title>Sobre mí</Title>
         <Me />
       </section>
 

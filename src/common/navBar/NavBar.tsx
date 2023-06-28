@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll'
 import styles from './nav.module.css'
 
-const navPages = ['Sobre mi', 'Experiencia', 'Aptitudes']
+const navPages = ['Sobre mí', 'Experiencia', 'Aptitudes']
 
 export const NavBar: React.FC<{}> = () => {
   return (

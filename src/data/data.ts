@@ -109,7 +109,7 @@ export const Me = {
   birthday: '03/01/2000',
   objetive: 'Mi objetivo es trabajar como desarrollador en una empresa de tecnología, y tener la oportunidad de aplicar mis habilidades para ' +
             'proporcionar soluciones sólidas en el ámbito del desarrollo de software. Con una formación como técnico en computación y actualmente en ' +
-            'cuarto año de ingeniería en sistemas, he demostrado mi capacidad para investigar y aprender de forma autónoma en múltiples proyectos.' +
+            'cuarto año de ingeniería en sistemas, he demostrado mi capacidad para investigar y aprender de forma autónoma en múltiples proyectos. ' +
             'Busco oportunidades que me permitan adquirir experiencia y crecer profesionalmente, centrándome principalmente en el desarrollo backend.',
   location: 'Monte Castro, CABA',
   mail: 'goncalves.pab@gmail.com',
