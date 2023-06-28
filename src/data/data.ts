@@ -73,7 +73,6 @@ export const skills = [
 
 export const proyects = [
   {
-    where: 'utn',
     name: 'patitas',
     description: 'Sistema de información diseñado para la materia de Diseño de Sistemas, el cual ofrece las siguientes funcionalidades:\n' +
     '• Dar en adopción una mascota.\n' +
@@ -88,7 +87,6 @@ export const proyects = [
     tags: ['java', 'spring', 'vueJS', 'JavaScript', 'RESTful', 'maven', 'MVC', 'Design Patterns']
   },
   {
-    where: 'utn',
     name: 'TP Sistemas Operativos',
     description: 'Trabajo práctico de la materia Sistemas Operativos. Consiste en el desarrollo de una solución que permite simular un sistema distribuido en el cual se planifican procesos, se resuelven peticiones al sistema y se administra de manera adecuada la memoria bajo un esquema de memoria.',
     img: 'TPSO.png',
@@ -97,7 +95,6 @@ export const proyects = [
     tags: ['C', 'Linux']
   },
   {
-    where: 'utn',
     name: 'Portafolio',
     description: 'Portafolio personal',
     img: 'portfolio.png',
@@ -114,13 +111,21 @@ export const Me = {
             'proporcionar soluciones sólidas en el ámbito del desarrollo de software. Con una formación como técnico en computación y actualmente en ' +
             'cuarto año de ingeniería en sistemas, he demostrado mi capacidad para investigar y aprender de forma autónoma en múltiples proyectos.' +
             'Busco oportunidades que me permitan adquirir experiencia y crecer profesionalmente, centrándome principalmente en el desarrollo backend.',
-  algo: '',
+  location: 'Monte Castro, CABA',
+  mail: 'goncalves.pab@gmail.com',
+  tel: '1164296693',
   study: [
     {
-      name: '',
-      start: '',
-      end: '',
-      title: ''
+      name: 'Escuela Tecnica N35 Ing Eduardo Laztzina',
+      start: '2013',
+      end: '2018',
+      title: 'Tecnico en computacion'
+    },
+    {
+      name: 'Universidad Tecnologica Nacional',
+      start: '2019',
+      end: 'actual',
+      title: 'Ingenieria en sistemas de informacion'
     }
   ]
 }

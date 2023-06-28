@@ -8,8 +8,8 @@ export const Me: React.FC<{}> = () => {
     <main className={styles.main}>
       <div className={styles.card}>
         <img src='/picture3RF3.png' alt='foto de perfil' className={styles.img} />
-        <h1>Pablo Goncalves</h1>
-        <h2 style={{ color: '#FF8F66', textDecoration: 'underline' }}>Backend Developer</h2>
+        <h1 style={{ fontSize: '28px' }}>Pablo Goncalves</h1>
+        <h2 style={{ color: '#FF8F66', textDecoration: 'underline' }}>Software Developer</h2>
         <p>{yo.objetive}</p>
         <div className={styles.socialContainter}>
           <div className={styles.line} />

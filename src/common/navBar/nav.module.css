@@ -9,6 +9,7 @@
     height: 75px;
     background-color: #1E2227;
     z-index: 10;
+    box-shadow: 1px 1px 18px 7px black;
 }
 
 .ul li{
